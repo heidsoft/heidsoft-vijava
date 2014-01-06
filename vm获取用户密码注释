@@ -1,0 +1,7 @@
+暂时通过vm对象直接获取，不提供独立方法
+VirtualMachineConfigSpec vmSpec = new VirtualMachineConfigSpec();
+vmSpec.setName(vmName);
+vmSpec.setAnnotation("root:password"); //设置注释
+
+vm.getConfig.getAnnotation();   //获取密码用户名
+
